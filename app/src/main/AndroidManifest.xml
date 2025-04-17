@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/icon_app"
+        android:label="My Books"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BookDemo"
+        tools:targetApi="31">
+        <activity
+            android:name=".ElectricalSubContent"
+            android:exported="false" />
+        <activity
+            android:name=".CivilSubContent"
+            android:exported="false" />
+        <activity
+            android:name=".CseOS"
+            android:exported="false" />
+        <activity
+            android:name=".CseAndroidStudio"
+            android:exported="false" />
+        <activity
+            android:name=".CProgramming"
+            android:exported="false" />
+        <activity
+            android:name=".CseComputerNetworking"
+            android:exported="false" />
+        <activity
+            android:name=".CseSubContent"
+            android:exported="false" />
+        <activity
+            android:name=".SubjectList"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
